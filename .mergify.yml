@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: BB required-team membership revocation Read-only gate
+    conditions:
+      - title = BB REQUIRED TEAM READONLY GATE Q7N4
+    actions:
+      merge:
+        method: merge
